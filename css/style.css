@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: auto;
+    background: #202f36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 700;
+    color: #fff;
+}
+main{
+    display: flex;
+    align-items: flex-end;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 60px;
+}
+.vertical{
+    width: 50px;
+    height: 48px;
+    margin: 4px;
+    font-family: monospace;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.groupone{
+    font-family: monospace;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.mass{
+    width: 80%;
+    font-family: monospace;
+    font-size: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.symbol{
+    font-family: monospace;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.name{
+    font-family: monospace;
+    font-size: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    font-family: monospace;
+    font-size: 10px;
+    margin-left: 25px;
+}
+.box{
+    width: 48px;
+    height: 48px;
+    border: 2px solid #fff;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.orange{
+    background-color: orange;
+}
+.indigo{
+    background-color: indigo;
+}
+.yellow{
+    background-color: goldenrod;
+}
+.blue{
+    background-color: royalblue;
+}
+.red{
+    background-color: tomato;
+}
+.purple{
+    background-color: purple;
+}
+.green{
+    background-color: green;
+}
+.darkgreen{
+    background-color: darkgreen;
+}
+.grey{
+    background-color: grey;
+}
+.darkgrey{
+    background-color: darkgrey;
+}
+.row-one, .row-two{
+    display: flex;
+    color: #fff;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 14px;
+}
